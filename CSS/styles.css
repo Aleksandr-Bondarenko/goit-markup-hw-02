@@ -30,3 +30,196 @@
   /* Рамка карточек проектов в портфолио */
   --project-border-color: #eeeeee;
 }
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+header,
+.advantages,
+.abilities,
+.projects {
+  background-color: #ffffff;
+}
+
+/* ЛОГО */
+.header-logo,
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.header-logo .part {
+  color: #000000;
+}
+
+.footer-logo .part {
+  color: #ffffff;
+}
+
+/* ШАПКА */
+.site-nav a,
+.header-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.header-contacts a {
+  color: #757575;
+}
+
+.site-nav a:hover,
+.header-contacts a:hover,
+.site-nav a:focus,
+.header-contacts a:focus {
+  color: #2196f3;
+}
+
+/* ГЕРОЙ */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
+/* ПРЕИМУЩЕСТВА */
+.advantages-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ВОЗМОЖНОСТИ */
+.abilities-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-member,
+.team-member-profesion {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member-profesion {
+  font-weight: 400;
+  color: #757575;
+}
+
+/* ФИЛЬТР */
+.projects-filter button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.projects-filter button:hover,
+.projects-filter button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.projects-list a {
+  text-decoration: none;
+}
+
+.projects-list h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ПОДВАЛ */
+footer {
+  background-color: #2f303a;
+}
+.address,
+.address a {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-contacts a {
+  color: rgba(255, 255, 255, 0.6);
+}
