@@ -1,8 +1,8 @@
 :root {
   --main-background-color: #ffffff;
 
-  /* Заголовки, тектс кнопок фильтра, навигация в шапке */
-  --title-color: #212121;
+  /* Заголовки h2-h3, тектс кнопок фильтра, навигация в шапке */
+  --main-title-color: #212121;
 
   /* Основной текст, почта и телефон в шапке */
   --pfragrapf-color: #757575;
@@ -33,62 +33,60 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-style: normal;
+  background-color: #ffffff;
+  /* font-style: normal; */
 }
 
-ul {
+.list {
   list-style: none;
 }
 
-header,
-.advantages,
-.abilities,
-.projects {
-  background-color: #ffffff;
+.link {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* ЛОГО */
-.header-logo,
-.footer-logo {
+.logo {
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
 
-.header-logo .part {
+.logo-header-part {
   color: #000000;
 }
 
-.footer-logo .part {
+.logo-footer-part {
   color: #ffffff;
 }
 
 /* ШАПКА */
-.site-nav a,
-.header-contacts a {
+.site-nav .link,
+.header-contacts .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  text-decoration: none;
 }
 
-.header-contacts a {
+.header-contacts .link {
   color: #757575;
 }
 
-.site-nav a:hover,
-.header-contacts a:hover,
-.site-nav a:focus,
-.header-contacts a:focus {
+.action:hover,
+.action:focus {
   color: #2196f3;
 }
+
+.active:active {
+  color: blueviolet;
+}
+/* КОНЕЦ ШАПКИ */
 
 /* ГЕРОЙ */
 .hero {
@@ -105,7 +103,7 @@ header,
   color: #ffffff;
 }
 
-.hero-button {
+.hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -115,8 +113,8 @@ header,
   background-color: #2196f3;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.action-btn:hover,
+.action-btn:focus {
   background-color: #188ce8;
 }
 
@@ -206,20 +204,19 @@ header,
 }
 
 /* ПОДВАЛ */
-footer {
+.footer {
   background-color: #2f303a;
 }
-.address,
-.address a {
+.address {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  text-decoration: none;
 }
 
-.footer-contacts a {
+.address .link {
   color: rgba(255, 255, 255, 0.6);
 }
+/* КОНЕЦ ПОДВАЛА */
