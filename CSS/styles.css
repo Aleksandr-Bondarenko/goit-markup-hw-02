@@ -45,7 +45,6 @@ body {
 
 .link {
   text-decoration: none;
-  cursor: pointer;
 }
 
 /* ЛОГО */
@@ -114,6 +113,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 .action-btn:hover,
@@ -181,6 +181,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   background-color: var(--secondary-bgc);
+  cursor: pointer;
 }
 
 .filter-btn:hover,
